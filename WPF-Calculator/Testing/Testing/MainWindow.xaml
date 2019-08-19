@@ -1,0 +1,172 @@
+﻿<Window x:Class="Testing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Testing"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="430" Width="280"
+        ResizeMode="CanMinimize"
+        
+        
+
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+     TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+     TextElement.FontWeight="Regular"
+     TextElement.FontSize="13"
+     TextOptions.TextFormattingMode="Ideal"
+     TextOptions.TextRenderingMode="Auto"
+     Background="{DynamicResource MaterialDesignPaper}"
+     FontFamily="{DynamicResource MaterialDesignFont}">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition  />
+            <ColumnDefinition />
+            <ColumnDefinition  />
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--First row-->
+        <Button
+    Grid.Row="1"
+    Grid.Column="0"
+         FontSize="25"
+            Click="ClearEntry"
+    Content="CE" Height="63" Width="64" />
+        <Button
+    Grid.Row="1"
+    Grid.Column="1"
+         FontSize="25"
+    Content="C" Height="63" Width="64" />
+
+        <Button
+    Grid.Row="1"
+    Grid.Column="2"
+            FontSize="23"
+            Click="BackSpace"
+            
+    Content="&#xE083;" FontFamily="Segoe UI Symbol" Height="63" Width="64"  />
+        <Button
+    Grid.Row="1"
+    Grid.Column="3"
+         FontSize="25"
+            Click="Operation"
+    Content="&#xF7;" Height="63" Width="64" />
+        <!--Second row-->
+        <Button
+    Grid.Row="2"
+    Grid.Column="0"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="7" Height="63" Width="64" />
+        <Button
+    Grid.Row="2"
+    Grid.Column="1"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="8" Height="63" Width="64" />
+        <Button
+    Grid.Row="2"
+    Grid.Column="2"
+         FontSize="25"
+    Content="9" Height="63" Width="64" Click="ButtonClick" />
+            
+        <Button
+    Grid.Row="2"
+    Grid.Column="3"
+         FontSize="25"
+            Click="Operation"
+    Content="&#215; " Height="63" Width="64" />
+        <!--Thurd row-->
+        <Button
+    Grid.Row="3"
+    Grid.Column="0"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="4" Height="63" Width="64" />
+        <Button
+    Grid.Row="3"
+    Grid.Column="1"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="5" Height="63" Width="64" />
+        <Button
+    Grid.Row="3"
+    Grid.Column="2"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="6" Height="63" Width="64" />
+        <Button
+    Grid.Row="3"
+    Grid.Column="3"
+         FontSize="25"
+            Click="Operation"
+    Content="-" Height="63" Width="64" />
+        <!--fourth row-->
+        <Button
+    Grid.Row="4"
+    Grid.Column="0"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="1" Height="63" Width="64" />
+        <Button
+    Grid.Row="4"
+    Grid.Column="1"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="2" Height="63" Width="64" />
+        <Button
+    Grid.Row="4"
+    Grid.Column="2"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="3" Height="63" Width="64" />
+        <Button
+    Grid.Row="4"
+    Grid.Column="3"
+         FontSize="25"
+            Click="Operation"
+    Content="+" Height="63" Width="64" />
+        <!--Fifth row -->
+        <Button
+    Grid.Row="5"
+    Grid.Column="0"
+         FontSize="25"
+    Content="&#177;" Height="63" Width="64" />
+        <Button
+    Grid.Row="5"
+    Grid.Column="1"
+         FontSize="25"
+            Click="ButtonClick"
+    Content="0" Height="63" Width="64" />
+        <Button
+    Grid.Row="5"
+    Grid.Column="2"
+         FontSize="25"
+            Click="DecimalDot"
+            
+    Content="." Height="63" Width="64" />
+        <Button
+    Grid.Row="5"
+    Grid.Column="3"
+         FontSize="25"
+    Content="=" Height="63" Width="64" />
+
+
+
+        <TextBox x:Name="Result" IsReadOnly="True" IsHitTestVisible="True"  Grid.ColumnSpan="4" TextAlignment="Right" Height="70" Width="auto" VerticalAlignment="Bottom" FontSize="25" BorderThickness="0" Background="White" Text="0" />
+       
+
+
+    </Grid>
+</Window>
