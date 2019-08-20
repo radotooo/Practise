@@ -20,6 +20,7 @@ C:\Users\Radotooo\source\repos\WPF\Testing\Testing\obj\Debug\Testing.csproj.Core
 C:\Users\Radotooo\source\repos\WPF\Testing\Testing\obj\Debug\Testing.csproj.CopyComplete
 C:\Users\Radotooo\source\repos\WPF\Testing\Testing\obj\Debug\Testing.exe
 C:\Users\Radotooo\source\repos\WPF\Testing\Testing\obj\Debug\Testing.pdb
+<<<<<<< HEAD
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\bin\Debug\Testing.exe.config
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\bin\Debug\Testing.exe
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\bin\Debug\Testing.pdb
@@ -42,3 +43,5 @@ C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\obj\Debug\Testing.csproj.Core
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\obj\Debug\Testing.csproj.CopyComplete
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\obj\Debug\Testing.exe
 C:\SoftUni\Practise\WPF-Calculator\Testing\Testing\obj\Debug\Testing.pdb
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
