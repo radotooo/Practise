@@ -41,7 +41,10 @@
     Grid.Row="1"
     Grid.Column="0"
          FontSize="25"
+<<<<<<< HEAD
             Click="ClearEntry"
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="CE" Height="63" Width="64" />
         <Button
     Grid.Row="1"
@@ -53,89 +56,140 @@
     Grid.Row="1"
     Grid.Column="2"
             FontSize="23"
+<<<<<<< HEAD
             Click="BackSpace"
             
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="&#xE083;" FontFamily="Segoe UI Symbol" Height="63" Width="64"  />
         <Button
     Grid.Row="1"
     Grid.Column="3"
          FontSize="25"
+<<<<<<< HEAD
             Click="Operation"
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="&#xF7;" Height="63" Width="64" />
         <!--Second row-->
         <Button
     Grid.Row="2"
     Grid.Column="0"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numSeven"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="7" Height="63" Width="64" />
         <Button
     Grid.Row="2"
     Grid.Column="1"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numEigth"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="8" Height="63" Width="64" />
         <Button
     Grid.Row="2"
     Grid.Column="2"
          FontSize="25"
+<<<<<<< HEAD
     Content="9" Height="63" Width="64" Click="ButtonClick" />
+=======
+    Content="9" Height="63" Width="64" Click="numNine" />
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
             
         <Button
     Grid.Row="2"
     Grid.Column="3"
          FontSize="25"
+<<<<<<< HEAD
             Click="Operation"
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="&#215; " Height="63" Width="64" />
         <!--Thurd row-->
         <Button
     Grid.Row="3"
     Grid.Column="0"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numFourth"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="4" Height="63" Width="64" />
         <Button
     Grid.Row="3"
     Grid.Column="1"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numFive"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="5" Height="63" Width="64" />
         <Button
     Grid.Row="3"
     Grid.Column="2"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numSix"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="6" Height="63" Width="64" />
         <Button
     Grid.Row="3"
     Grid.Column="3"
          FontSize="25"
+<<<<<<< HEAD
             Click="Operation"
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="-" Height="63" Width="64" />
         <!--fourth row-->
         <Button
     Grid.Row="4"
     Grid.Column="0"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numOne"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="1" Height="63" Width="64" />
         <Button
     Grid.Row="4"
     Grid.Column="1"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numTwo"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="2" Height="63" Width="64" />
         <Button
     Grid.Row="4"
     Grid.Column="2"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numThree"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="3" Height="63" Width="64" />
         <Button
     Grid.Row="4"
     Grid.Column="3"
          FontSize="25"
+<<<<<<< HEAD
             Click="Operation"
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="+" Height="63" Width="64" />
         <!--Fifth row -->
         <Button
@@ -147,14 +201,21 @@
     Grid.Row="5"
     Grid.Column="1"
          FontSize="25"
+<<<<<<< HEAD
             Click="ButtonClick"
+=======
+            Click="numZero"
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="0" Height="63" Width="64" />
         <Button
     Grid.Row="5"
     Grid.Column="2"
          FontSize="25"
+<<<<<<< HEAD
             Click="DecimalDot"
             
+=======
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
     Content="." Height="63" Width="64" />
         <Button
     Grid.Row="5"
@@ -164,7 +225,11 @@
 
 
 
+<<<<<<< HEAD
         <TextBox x:Name="Result" IsReadOnly="True" IsHitTestVisible="True"  Grid.ColumnSpan="4" TextAlignment="Right" Height="70" Width="auto" VerticalAlignment="Bottom" FontSize="25" BorderThickness="0" Background="White" Text="0" />
+=======
+        <TextBox x:Name="ResultRado" IsReadOnly="True" IsHitTestVisible="True"  Grid.ColumnSpan="4" TextAlignment="Right" Height="70" Width="auto" VerticalAlignment="Bottom" FontSize="25" BorderThickness="0" Background="White" Text="0" />
+>>>>>>> f442ab49834bf2f24b3e2929dbebb84866455792
        
 
 
